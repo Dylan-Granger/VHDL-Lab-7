@@ -1,0 +1,27 @@
+//! **************************************************************************
+// Written by: Map P.20160913 on Sun Nov 27 17:30:28 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "A<0>" LOCATE = SITE "T5" LEVEL 1;
+COMP "A<1>" LOCATE = SITE "V8" LEVEL 1;
+COMP "S0" LOCATE = SITE "C4" LEVEL 1;
+COMP "S1" LOCATE = SITE "B8" LEVEL 1;
+COMP "A<2>" LOCATE = SITE "U8" LEVEL 1;
+COMP "S2" LOCATE = SITE "D9" LEVEL 1;
+COMP "A<3>" LOCATE = SITE "N8" LEVEL 1;
+COMP "Cout" LOCATE = SITE "U16" LEVEL 1;
+COMP "B<0>" LOCATE = SITE "M8" LEVEL 1;
+COMP "B<1>" LOCATE = SITE "V9" LEVEL 1;
+COMP "B<2>" LOCATE = SITE "T9" LEVEL 1;
+COMP "B<3>" LOCATE = SITE "T10" LEVEL 1;
+COMP "LED_Segment<0>" LOCATE = SITE "L14" LEVEL 1;
+COMP "LED_Segment<1>" LOCATE = SITE "N14" LEVEL 1;
+COMP "LED_Segment<2>" LOCATE = SITE "M14" LEVEL 1;
+COMP "LED_Segment<3>" LOCATE = SITE "U18" LEVEL 1;
+COMP "LED_Segment<4>" LOCATE = SITE "U17" LEVEL 1;
+COMP "LED_Segment<5>" LOCATE = SITE "T18" LEVEL 1;
+COMP "LED_Segment<6>" LOCATE = SITE "T17" LEVEL 1;
+COMP "Cin" LOCATE = SITE "C9" LEVEL 1;
+SCHEMATIC END;
+

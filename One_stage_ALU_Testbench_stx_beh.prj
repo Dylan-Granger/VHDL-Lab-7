@@ -1,0 +1,7 @@
+vhdl isim_temp "half_adder.vhd"
+vhdl isim_temp "full_adder.vhd"
+vhdl isim_temp "B_input_logic.vhd"
+vhdl isim_temp "One_stage_of_logic_circuit.vhd"
+vhdl isim_temp "One_stage_of_Arithmetic_circuit.vhd"
+vhdl isim_temp "One_stage_of_ALU.vhd"
+vhdl isim_temp "One_stage_ALU_Testbench.vhd"

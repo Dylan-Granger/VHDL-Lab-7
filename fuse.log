@@ -1,0 +1,31 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -relaunch -intstyle "ise" -incremental -lib "secureip" -o "/home/ise/ISE/ENGG_MON_Group13_Lab7/One_stage_ALU_Testbench_isim_beh.exe" -prj "/home/ise/ISE/ENGG_MON_Group13_Lab7/One_stage_ALU_Testbench_beh.prj" "work.One_stage_ALU_Testbench" 
+ISim P.20160913 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/ISE/ENGG_MON_Group13_Lab7/half_adder.vhd" into library work
+Parsing VHDL file "/home/ise/ISE/ENGG_MON_Group13_Lab7/full_adder.vhd" into library work
+Parsing VHDL file "/home/ise/ISE/ENGG_MON_Group13_Lab7/B_input_logic.vhd" into library work
+Parsing VHDL file "/home/ise/ISE/ENGG_MON_Group13_Lab7/One_stage_of_logic_circuit.vhd" into library work
+Parsing VHDL file "/home/ise/ISE/ENGG_MON_Group13_Lab7/One_stage_of_Arithmetic_circuit.vhd" into library work
+Parsing VHDL file "/home/ise/ISE/ENGG_MON_Group13_Lab7/One_stage_of_ALU.vhd" into library work
+Parsing VHDL file "/home/ise/ISE/ENGG_MON_Group13_Lab7/One_stage_ALU_Testbench.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 95468 KB
+Fuse CPU Usage: 1110 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity B_input_logic [b_input_logic_default]
+Compiling architecture design of entity half_adder [half_adder_default]
+Compiling architecture design of entity full_adder [full_adder_default]
+Compiling architecture behavioral of entity One_stage_of_Arithmetic_circuit [one_stage_of_arithmetic_circuit_...]
+Compiling architecture behavioral of entity One_stage_of_logic_circuit [one_stage_of_logic_circuit_defau...]
+Compiling architecture behavioral of entity One_stage_of_ALU [one_stage_of_alu_default]
+Compiling architecture behavior of entity one_stage_alu_testbench
+Time Resolution for simulation is 1ps.
+Compiled 15 VHDL Units
+Built simulation executable /home/ise/ISE/ENGG_MON_Group13_Lab7/One_stage_ALU_Testbench_isim_beh.exe
+Fuse Memory Usage: 104128 KB
+Fuse CPU Usage: 1190 ms
+GCC CPU Usage: 210 ms

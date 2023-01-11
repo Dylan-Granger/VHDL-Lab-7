@@ -1,0 +1,25 @@
+ISim log file
+Running: /home/ise/ISE/ENGG_MON_Group13_Lab7/One_stage_ALU_Testbench_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/ISE/ENGG_MON_Group13_Lab7/One_stage_ALU_Testbench_isim_beh.wdb 
+ISim P.20160913 (signature 0xfbc00daa)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 240 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+at 20 ns: Error: Test failed for input 'Cin = 0', 'S0 = 0', 'S1 = 0', 'S2 = 0'
+at 40 ns: Error: Test failed for input 'Cin = 1', 'S0 = 0', 'S1 = 0', 'S2 = 0'
+at 60 ns: Error: Test failed for input 'Cin = 0', 'S0 = 1', 'S1 = 0', 'S2 = 0'
+at 80 ns: Error: Test failed for input 'Cin = 1', 'S0 = 1', 'S1 = 0', 'S2 = 0'
+at 100 ns: Error: Test failed for input 'Cin = 0', 'S0 = 0', 'S1 = 1', 'S2 = 0'
+at 120 ns: Error: Test failed for input 'Cin = 1', 'S0 = 0', 'S1 = 1', 'S2 = 0'
+at 140 ns: Error: Test failed for input 'Cin = 0', 'S0 = 1', 'S1 = 1', 'S2 = 0'
+at 160 ns: Error: Test failed for input 'Cin = 1', 'S0 = 1', 'S1 = 1', 'S2 = 0'
+at 200 ns: Error: Test failed for input 'Cin = 0', 'S0 = 1', 'S1 = 0', 'S2 = 1'
+at 220 ns: Error: Test failed for input 'Cin = 0', 'S0 = 0', 'S1 = 1', 'S2 = 1'

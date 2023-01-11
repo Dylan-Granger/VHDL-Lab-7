@@ -1,0 +1,6 @@
+work	"B_input_logic.vhd"
+work	"One_stage_of_ALU.vhd"
+work	"One_stage_of_Arithmetic_circuit.vhd"
+work	"One_stage_of_logic_circuit.vhd"
+work	"full_adder.vhd"
+work	"half_adder.vhd"

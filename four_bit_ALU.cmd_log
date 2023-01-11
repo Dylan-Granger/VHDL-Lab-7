@@ -1,0 +1,88 @@
+xst -intstyle ise -ifn "/home/ise/ENGG_MON_Group13_Lab7/four_bit_ALU.xst" -ofn "/home/ise/ENGG_MON_Group13_Lab7/four_bit_ALU.syr" 
+xst -intstyle ise -ifn "/home/ise/ENGG_MON_Group13_Lab7/four_bit_ALU.xst" -ofn "/home/ise/ENGG_MON_Group13_Lab7/four_bit_ALU.syr" 
+xst -intstyle ise -ifn "/home/ise/ENGG_MON_Group13_Lab7/four_bit_ALU.xst" -ofn "/home/ise/ENGG_MON_Group13_Lab7/four_bit_ALU.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.xst" -ofn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.xst" -ofn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.xst" -ofn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.xst" -ofn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.xst" -ofn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.xst" -ofn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc four_bit_ALU.ucf -p xa6slx16-csg324-3 four_bit_ALU.ngc four_bit_ALU.ngd  
+xst -intstyle ise -ifn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.xst" -ofn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.xst" -ofn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.xst" -ofn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc four_bit_ALU.ucf -p xa6slx16-csg324-3 four_bit_ALU.ngc four_bit_ALU.ngd  
+xst -intstyle ise -ifn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.xst" -ofn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc four_bit_ALU.ucf -p xa6slx16-csg324-3 four_bit_ALU.ngc four_bit_ALU.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc four_bit_ALU.ucf -p xa6slx16-csg324-3 four_bit_ALU.ngc four_bit_ALU.ngd  
+map -intstyle ise -p xa6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o four_bit_ALU_map.ncd four_bit_ALU.ngd four_bit_ALU.pcf 
+par -w -intstyle ise -ol high -mt off four_bit_ALU_map.ncd four_bit_ALU.ncd four_bit_ALU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml four_bit_ALU.twx four_bit_ALU.ncd -o four_bit_ALU.twr four_bit_ALU.pcf -ucf four_bit_ALU.ucf 
+bitgen -intstyle ise -f four_bit_ALU.ut four_bit_ALU.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.xst" -ofn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc four_bit_ALU.ucf -p xa6slx16-csg324-3 four_bit_ALU.ngc four_bit_ALU.ngd  
+map -intstyle ise -p xa6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o four_bit_ALU_map.ncd four_bit_ALU.ngd four_bit_ALU.pcf 
+par -w -intstyle ise -ol high -mt off four_bit_ALU_map.ncd four_bit_ALU.ncd four_bit_ALU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml four_bit_ALU.twx four_bit_ALU.ncd -o four_bit_ALU.twr four_bit_ALU.pcf -ucf four_bit_ALU.ucf 
+bitgen -intstyle ise -f four_bit_ALU.ut four_bit_ALU.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.xst" -ofn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.xst" -ofn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc four_bit_ALU.ucf -p xa6slx16-csg324-3 four_bit_ALU.ngc four_bit_ALU.ngd  
+map -intstyle ise -p xa6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o four_bit_ALU_map.ncd four_bit_ALU.ngd four_bit_ALU.pcf 
+par -w -intstyle ise -ol high -mt off four_bit_ALU_map.ncd four_bit_ALU.ncd four_bit_ALU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml four_bit_ALU.twx four_bit_ALU.ncd -o four_bit_ALU.twr four_bit_ALU.pcf -ucf four_bit_ALU.ucf 
+bitgen -intstyle ise -f four_bit_ALU.ut four_bit_ALU.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.xst" -ofn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc four_bit_ALU.ucf -p xc6slx16-csg324-3 four_bit_ALU.ngc four_bit_ALU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o four_bit_ALU_map.ncd four_bit_ALU.ngd four_bit_ALU.pcf 
+par -w -intstyle ise -ol high -mt off four_bit_ALU_map.ncd four_bit_ALU.ncd four_bit_ALU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml four_bit_ALU.twx four_bit_ALU.ncd -o four_bit_ALU.twr four_bit_ALU.pcf -ucf four_bit_ALU.ucf 
+bitgen -intstyle ise -f four_bit_ALU.ut four_bit_ALU.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc four_bit_ALU.ucf -p xc6slx16-csg324-3 four_bit_ALU.ngc four_bit_ALU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o four_bit_ALU_map.ncd four_bit_ALU.ngd four_bit_ALU.pcf 
+par -w -intstyle ise -ol high -mt off four_bit_ALU_map.ncd four_bit_ALU.ncd four_bit_ALU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml four_bit_ALU.twx four_bit_ALU.ncd -o four_bit_ALU.twr four_bit_ALU.pcf -ucf four_bit_ALU.ucf 
+bitgen -intstyle ise -f four_bit_ALU.ut four_bit_ALU.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.xst" -ofn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.xst" -ofn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc four_bit_ALU.ucf -p xc6slx16-csg324-3 four_bit_ALU.ngc four_bit_ALU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o four_bit_ALU_map.ncd four_bit_ALU.ngd four_bit_ALU.pcf 
+par -w -intstyle ise -ol high -mt off four_bit_ALU_map.ncd four_bit_ALU.ncd four_bit_ALU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml four_bit_ALU.twx four_bit_ALU.ncd -o four_bit_ALU.twr four_bit_ALU.pcf -ucf four_bit_ALU.ucf 
+bitgen -intstyle ise -f four_bit_ALU.ut four_bit_ALU.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.xst" -ofn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc four_bit_ALU.ucf -p xc6slx16-csg324-3 four_bit_ALU.ngc four_bit_ALU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o four_bit_ALU_map.ncd four_bit_ALU.ngd four_bit_ALU.pcf 
+par -w -intstyle ise -ol high -mt off four_bit_ALU_map.ncd four_bit_ALU.ncd four_bit_ALU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml four_bit_ALU.twx four_bit_ALU.ncd -o four_bit_ALU.twr four_bit_ALU.pcf -ucf four_bit_ALU.ucf 
+bitgen -intstyle ise -f four_bit_ALU.ut four_bit_ALU.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.xst" -ofn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc four_bit_ALU.ucf -p xc6slx16-csg324-3 four_bit_ALU.ngc four_bit_ALU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o four_bit_ALU_map.ncd four_bit_ALU.ngd four_bit_ALU.pcf 
+par -w -intstyle ise -ol high -mt off four_bit_ALU_map.ncd four_bit_ALU.ncd four_bit_ALU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml four_bit_ALU.twx four_bit_ALU.ncd -o four_bit_ALU.twr four_bit_ALU.pcf -ucf four_bit_ALU.ucf 
+bitgen -intstyle ise -f four_bit_ALU.ut four_bit_ALU.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.xst" -ofn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc four_bit_ALU.ucf -p xc6slx16-csg324-3 four_bit_ALU.ngc four_bit_ALU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o four_bit_ALU_map.ncd four_bit_ALU.ngd four_bit_ALU.pcf 
+par -w -intstyle ise -ol high -mt off four_bit_ALU_map.ncd four_bit_ALU.ncd four_bit_ALU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml four_bit_ALU.twx four_bit_ALU.ncd -o four_bit_ALU.twr four_bit_ALU.pcf -ucf four_bit_ALU.ucf 
+bitgen -intstyle ise -f four_bit_ALU.ut four_bit_ALU.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.xst" -ofn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc four_bit_ALU.ucf -p xc6slx16-csg324-3 four_bit_ALU.ngc four_bit_ALU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o four_bit_ALU_map.ncd four_bit_ALU.ngd four_bit_ALU.pcf 
+par -w -intstyle ise -ol high -mt off four_bit_ALU_map.ncd four_bit_ALU.ncd four_bit_ALU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml four_bit_ALU.twx four_bit_ALU.ncd -o four_bit_ALU.twr four_bit_ALU.pcf -ucf four_bit_ALU.ucf 
+bitgen -intstyle ise -f four_bit_ALU.ut four_bit_ALU.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.xst" -ofn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc four_bit_ALU.ucf -p xc6slx16-csg324-3 four_bit_ALU.ngc four_bit_ALU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o four_bit_ALU_map.ncd four_bit_ALU.ngd four_bit_ALU.pcf 
+par -w -intstyle ise -ol high -mt off four_bit_ALU_map.ncd four_bit_ALU.ncd four_bit_ALU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml four_bit_ALU.twx four_bit_ALU.ncd -o four_bit_ALU.twr four_bit_ALU.pcf -ucf four_bit_ALU.ucf 
+bitgen -intstyle ise -f four_bit_ALU.ut four_bit_ALU.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.xst" -ofn "/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc four_bit_ALU.ucf -p xc6slx16-csg324-3 four_bit_ALU.ngc four_bit_ALU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o four_bit_ALU_map.ncd four_bit_ALU.ngd four_bit_ALU.pcf 
+par -w -intstyle ise -ol high -mt off four_bit_ALU_map.ncd four_bit_ALU.ncd four_bit_ALU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml four_bit_ALU.twx four_bit_ALU.ncd -o four_bit_ALU.twr four_bit_ALU.pcf -ucf four_bit_ALU.ucf 
+bitgen -intstyle ise -f four_bit_ALU.ut four_bit_ALU.ncd 

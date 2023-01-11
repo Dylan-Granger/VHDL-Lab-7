@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/ISE/ENGG_MON_Group13_Lab7/One_stage_ALU_Testbench_isim_beh.exe" -prj "/home/ise/ISE/ENGG_MON_Group13_Lab7/One_stage_ALU_Testbench_beh.prj" "work.One_stage_ALU_Testbench" 

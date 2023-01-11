@@ -1,0 +1,24 @@
+NET A(0) LOC = T5;
+NET A(1) LOC = V8;
+NET A(2) LOC = U8;
+NET A(3) LOC = N8;
+
+NET B(0) LOC = M8;
+NET B(1) LOC = V9;
+NET B(2) LOC = T9;
+NET B(3) LOC = T10;
+
+NET S0 LOC = C4;
+NET S1 LOC = B8;
+NET S2 LOC = D9;
+NET Cin LOC = C9;
+
+NET Cout LOC = U16;
+
+NET LED_Segment<6> LOC = T17;
+NET LED_Segment<5> LOC = T18;
+NET LED_Segment<4> LOC = U17;
+NET LED_Segment<3> LOC = U18;
+NET LED_Segment<2> LOC = M14;
+NET LED_Segment<1> LOC = N14;
+NET LED_Segment<0> LOC = L14;

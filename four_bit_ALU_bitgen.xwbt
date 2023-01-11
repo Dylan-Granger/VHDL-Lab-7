@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.ncd
+OUTFILE=/home/ise/ISE/ENGG_MON_Group13_Lab7/four_bit_ALU.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=/home/ise/ISE/ENGG_MON_Group13_Lab7
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620
